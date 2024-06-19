@@ -1,1 +1,2 @@
 # PedraPapelTesoura
+O jogo "Pedra, Papel e Tesoura" utilizando Programação Orientada a Objetos (POO) é dividida em três classes principais: Program, Jogo e Jogador, cada uma com responsabilidades específicas para garantir a clareza. Cada jogador escolhe entre pedra, papel ou tesoura. A classe jogo compara as escolhas: Pedra vence tesoura, tesoura vence papel, papel vence pedra e escolhas iguais gera empate. O jogo foi feito com POO (encapsulamento) para facilitar a compreensão do código e foi dividido em jogo, jogador e o program.
