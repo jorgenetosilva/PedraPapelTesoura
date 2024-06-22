@@ -24,7 +24,14 @@ namespace PedraPapelTesoura
 
         private string DeterminarVencedor(string escolha1, string escolha2)
         {
+            string[] escolhasValidas = { "pedra", "papel", "tesoura" };
+            if (!escolhasValidas.Contains(escolha1) || !escolhasValidas.Contains(escolha2))
+            {
+                Console.WriteLine("Escolha inválida!");
+                return "Empate";
+            }
             if (escolha1 == escolha2)
+
                 return "Empate";
 
             if ((escolha1 == "pedra" && escolha2 == "tesoura") ||
